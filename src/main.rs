@@ -6,7 +6,7 @@ use questdb::{
         SenderBuilder}};
 
 fn main() -> Result<()> {
-   let mut sender = SenderBuilder::new("localhost", 9009).connect()?;
+   let mut sender = SenderBuilder::new("192.168.1.148", 9009).connect()?;
    let mut buffer = Buffer::new();
    buffer
        .table("sensors")?
