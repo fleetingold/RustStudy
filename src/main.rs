@@ -1,7 +1,6 @@
 use questdb::{
     Result,
     ingress::{
-        Sender,
         Buffer,
         SenderBuilder}};
 
